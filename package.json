@@ -1,0 +1,25 @@
+{
+  "name": "sdev305-midterm",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akurfurst/SDEV305-Midterm.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/akurfurst/SDEV305-Midterm/issues"
+  },
+  "homepage": "https://github.com/akurfurst/SDEV305-Midterm#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "nodemon": "^3.1.11"
+  }
+}
