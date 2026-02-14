@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/styles/styles.css">
+    <script src="/js/script.js" defer></script>
+    <title>Booking</title>
+</head>
+<body>
+    <div id="main">
+        <h1>Book Your Dream Vacation</h1>
+        <img src="/images/background.jpg" alt="Sunset on the beach">
+        <form id="booking-form" action="#" method="get">
+            <label for="destination" class="user-input">Destination
+                <span class="err" id="err-destination">Select Destination</span>
+                <select id="destination" name="destination">
+                    <option value="none">Choose a destination</option>
+                    <option value="SEA">Seattle, USA</option>
+                    <option value="LAX">Los Angeles, USA</option>
+                    <option value="HND">Tokyo, Japan</option>
+                    <option value="LHR">London, UK</option>
+                    <option value="CDG">Paris, France</option>
+                </select>
+            </label>
+            <fieldset>
+                <label for="date" class="user-input">Departure Date
+                    <span class="err" id="err-date">Please select departure date</span>
+                    <input type="date" class="date-num" id="date" name="date">
+                </label>
+                <label for="travelers" class="user-input">Number of Travelers
+                    <span class="err" id="err-travelers">Must be more than 0 travelers</span>
+                    <input type="number" class="date-num" id="travelers" value="0">
+                </label>
+            </fieldset>
+        </form>
+    </div>
+</body>
+</html>
