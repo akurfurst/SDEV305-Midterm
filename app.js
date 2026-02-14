@@ -9,6 +9,10 @@ app.get('/', (req, res) => {
     res.sendFile(`${import.meta.dirname}/views/home.html`);
 });
 
+app.post('/confirmation', (req, res) => {
+    res.sendFile(`${import.meta.dirname}/views/confirmation.html`);
+});
+
 app.listen(PORT, () =>{
     console.log(`Server started at http://localhost:${PORT}`)
 })

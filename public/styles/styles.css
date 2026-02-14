@@ -3,6 +3,8 @@ body{
     padding: 5rem 15%;
     font-family: sans-serif;
     font-weight: bold;
+    display: flex;
+    flex-direction: column;
 }
 
 #main{
@@ -82,4 +84,14 @@ button{
     font-size: 1rem;
     font-weight: bold;
     
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+footer{
+    margin-top: 5rem;
+    text-align: center;
 }

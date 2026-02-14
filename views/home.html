@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="images/icon.png">
     <link rel="stylesheet" href="/styles/styles.css">
     <script src="/js/script.js" defer></script>
     <title>Booking</title>
@@ -11,7 +12,7 @@
     <div id="main">
         <h1>Book Your Dream Vacation</h1>
         <img src="/images/background.jpg" alt="Sunset on the beach">
-        <form id="booking-form" action="#" method="get">
+        <form id="booking-form" action="/confirmation" method="post">
             <label for="destination" class="user-input">Destination
                 <span class="err" id="err-destination">Select Destination</span>
                 <select id="destination" name="destination">
@@ -36,5 +37,8 @@
             <button type="submit" id="submit-button">Find My Vacation</button>
         </form>
     </div>
+    <footer>
+        <a href="https://github.com/akurfurst/SDEV305-Midterm" target="_blank">Github Repository: https://github.com/akurfurst/SDEV305-Midterm</a>
+    </footer>
 </body>
 </html>

@@ -20,6 +20,7 @@ document.getElementById("booking-form").onsubmit = () =>{
     let travelers = document.getElementById("travelers").value;
     if(travelers < 1){
         document.getElementById("err-travelers").style.visibility = "visible"
+        isValid = false
     }
 
     return isValid;
